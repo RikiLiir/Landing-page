@@ -1,0 +1,9 @@
+.navbar {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.navbar > p {
+    margin: 6px;
+    font-size: 1rem;
+}
