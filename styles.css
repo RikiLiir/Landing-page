@@ -1,9 +1,60 @@
-.navbar {
-    display: inline-flex;
-    flex-wrap: wrap;
+:root {
+    --white: #ffffff;
+    --gray: #fcfcfc;
+    --spacing: 2px;
+    --text: #D5D5DA;
+
 
 }
-.navbar > p {
-    margin: 6px;
+html, body{
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(var(--white), var(--gray));
+}
+
+.a {
+    text-decoration: none
+}
+
+.navbar {
+    padding: 2rem;
+    
+
+}
+.navbar-right > a {
+    margin-right: 4rem;
     font-size: 1rem;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    letter-spacing: var(--spacing);
+    
+}
+.navbar-right {
+    float: right;
+    
+    
+    
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: var(--spacing);
+    font-size: 1.5rem;
+}
+.num {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+hr {
+    width: 70px;
+    height: 1px;
+    border: none;
+    background-color: black;
+    
+}
+p {
+    color: var(--text);
 }
